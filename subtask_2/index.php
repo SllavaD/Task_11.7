@@ -24,6 +24,7 @@
     $y7 = null;
     $y8 = "php"; 
     ?>
+    
     <h3> Гибкое сравнение в PHP</h>
     <table>
         <tr colspan = grey>
@@ -36,7 +37,6 @@
             <th> "1" </th>
             <th>null</th>
             <th>"php"</th>
-
         </tr>
     <tr>
         <th> true </th>
@@ -129,7 +129,6 @@
     </table>
 
     <h3>Жёсткое сравнение в PHP</h>
-
     <table>
         <tr colspan = grey>
             <th> === </th>
@@ -141,7 +140,6 @@
             <th> "1" </th>
             <th>null</th>
             <th>"php"</th>
-
         </tr>
     <tr>
         <th> true </th>
@@ -232,6 +230,7 @@
         <td> <?php echo var_dump($x8 === $y8) ?> </td>
     </tr>
     </table>
+    
 </body>
 
 </html>
